@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorting Routine</title>
+</head>
+<body>
+    <!--The canvas height and width are set here but will be adjusted in the js file so they can be assigned to a variable-->
+    <canvas id="myCanvas" width="200" height="100"
+    style="border:1px solid #c3c3c3;">
+    Your browser does not support the canvas element.
+</canvas>
+<p>Number of Elements to Sort</p>
+<input type = "number" id = "numberOfElements" value = "50">
+<p>Rate in milliseconds</p>
+<input type = "number" id = "rate" value = "100">
+<button onclick = "randomizeCanvas();">Randomize</button>
+<button onclick = "bubbleSort();">Bubble Sort</button>
+<button onclick = "selectionSort();">Selection Sort</button>
+<script src = "Sort.js"></script>
+</body>
+</html>
